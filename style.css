@@ -1,2 +1,205 @@
 @charset "UTF-8";
+/* ここから960グリッドシステム 
+12カラムバージョン
+*/
+body{
+margin:0;
+padding:0;
+}
+
+/*----clearfix--------*/
+.clearfix:after {
+content:'';
+display:block;
+width:100%;
+height:0;
+clear:both;
+visibility:hidden;
+}
+
+/*-------clear---------*/
+.clear {
+clear:both;
+}
+
+.grid_1 {
+     width:60px;
+     float: left;
+     margin-left: 10px;
+     margin-right: 10px
+}
+
+.grid_2 {
+     width:140px;
+     float: left;
+     margin-left: 10px;
+     margin-right: 10px
+}
+
+.grid_3 {
+     width:220px;
+     float: left;
+     margin-left: 10px;
+     margin-right: 10px
+
+}
+
+.grid_4 {
+     width:300px;
+     float: left;
+     margin-left: 10px;
+     margin-right: 10px
+}
+
+.grid_5 {
+     width:380px;
+     float: left;
+     margin-left: 10px;
+     margin-right: 10px
+}
+
+.grid_6 {
+     width:460px;
+     float: left;
+     margin-left: 10px;
+     margin-right: 10px
+}
+
+.grid_7 {
+     width:540px;
+     float: left;
+     margin-left: 10px;
+     margin-right: 10px
+}
+
+.grid_8 {
+     width:620px;
+     float: left;
+     margin-left: 10px;
+     margin-right: 10px
+}
+
+.grid_9 {
+     width:700px;
+     float: left;
+     margin-left: 10px;
+     margin-right: 10px
+}
+
+.grid_10 {
+     width:780px;
+     float: left;
+     margin-left: 10px;
+     margin-right: 10px
+}
+
+.grid_11 {
+     width:860px;
+     float: left;
+     margin-left: 10px;
+     margin-right: 10px
+}
+
+.grid_12 {
+     width:940px;
+     margin-left: 10px;
+     margin-right: 10px
+}
+
+/* 箱の中に箱を作るとき一番右、一番左になる箱のmarginをなくす
+一番左の箱にはalphaを一番右の箱にはomegaを追加
+
+*/
+
+
+.alpha {
+     margin-left: 0;
+}
+
+.omega {
+     margin-right: 0;
+}
+
+/* ここまで960_12カラムグリッドシステム */
+
+/*----common background-color------*/
+.bgcolor1 {
+	background-color:#E5A61D;
+}
+
+.bgcolor2 {
+	background-color:#1372D8;
+}
+
+.bgcolor3 {
+	background-color:#1EB71B;
+}
+
+.bgcolor4 {
+	background-color:#D82511;
+}
+
+.bgcolor5 {
+	background-color:#C9D824;
+}
+
+/*-----box common-------*/
+
+.container {
+height:1000px;
+margin:0 auto;
+}
+
+.header {
+height:100px;
+}
+.nav {
+height:40px;
+}
+
+.main {
+height:800px;
+}
+
+.footer {
+height:60px;
+}
+
+.left {
+height:800px;
+}
+
+/*分かりやすいようにラベルつけてみます*/
+.header:after {
+content:'header';
+display:block;
+font-size:3rem;
+text-align:center;
+line-height:100px;
+}
+
+.nav:after {
+content:'nav';
+display:block;
+font-size:2rem;
+text-align:center;
+line-height:40px;
+}
+
+.left:after {
+content:'left';
+display:block;
+font-size:3rem;
+text-align:center;
+line-height:800px;
+}
+
+.footer:after {
+content:'footer';
+display:block;
+font-size:3rem;
+text-align:center;
+line-height:60px;
+}
+
 
